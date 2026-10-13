@@ -68,13 +68,50 @@ Discarded input sections
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\main.o
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\main.o
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\main.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\main.o
  .text          0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\main.o
  .data          0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\main.o
  .bss           0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\main.o
- .text.delay_ms
-                0x00000000       0x18 C:\Users\Пётр\Desktop\STM2\build\main.o
  .rodata.banner
-                0x00000000       0x23 C:\Users\Пётр\Desktop\STM2\build\main.o
+                0x00000000       0x29 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .text          0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .data          0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .bss           0x00000000        0x0 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .text.TFT_DrawPixel
+                0x00000000       0x54 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000      0xac0 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x2e C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x22 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x22 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x8e C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x51 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000      0x103 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x6a C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000      0x1df C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x1c C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x22 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0xbd C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000      0xd23 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000    0x15c59 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x6d C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00000000       0x82 C:\Users\Пётр\Desktop\STM2\build\tft.o
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
  .group         0x00000000        0xc C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
@@ -550,6 +587,7 @@ LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.
 LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
 LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 LOAD C:\Users\Пётр\Desktop\STM2\build\main.o
+LOAD C:\Users\Пётр\Desktop\STM2\build\tft.o
 LOAD C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 LOAD C:\Users\Пётр\Desktop\STM2\build\syscalls.o
 LOAD C:\Users\Пётр\Desktop\STM2\build\sysmem.o
@@ -575,184 +613,229 @@ LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.
                 0x08000000                g_pfnVectors
                 0x08000150                        . = ALIGN (0x4)
 
-.text           0x08000150      0x2e4
+.text           0x08000150     0x1bc0
                 0x08000150                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000150       0x40 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.text*)
+ .text.delay_ms
+                0x08000190       0x18 C:\Users\Пётр\Desktop\STM2\build\main.o
+                0x08000190                delay_ms
  .text.startup.main
-                0x08000190      0x150 C:\Users\Пётр\Desktop\STM2\build\main.o
-                0x08000190                main
+                0x080001a8      0x284 C:\Users\Пётр\Desktop\STM2\build\main.o
+                0x080001a8                main
+ .text.TFT_Init
+                0x0800042c     0x1120 C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x0800042c                TFT_Init
+ .text.TFT_SetAddressWindow
+                0x0800154c      0x30c C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x0800154c                TFT_SetAddressWindow
+ .text.TFT_FillRect.part.0
+                0x08001858       0x94 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .text.TFT_FillRect
+                0x080018ec       0x1c C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x080018ec                TFT_FillRect
+ .text.TFT_FillScreen
+                0x08001908       0x18 C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x08001908                TFT_FillScreen
+ .text.TFT_DrawRect
+                0x08001920       0x9c C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x08001920                TFT_DrawRect
+ .text.TFT_DrawChar
+                0x080019bc       0xf4 C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x080019bc                TFT_DrawChar
+ .text.TFT_DrawString
+                0x08001ab0      0x10c C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x08001ab0                TFT_DrawString
  .text.SystemInit
-                0x080002e0        0x4 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
-                0x080002e0                SystemInit
+                0x08001bbc        0x4 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x08001bbc                SystemInit
  .text.SystemCoreClockUpdate
-                0x080002e4       0x9c C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
-                0x080002e4                SystemCoreClockUpdate
+                0x08001bc0       0x9c C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x08001bc0                SystemCoreClockUpdate
  .text.Reset_Handler
-                0x08000380       0x50 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
-                0x08000380                Reset_Handler
+                0x08001c5c       0x50 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
+                0x08001c5c                Reset_Handler
  .text.Default_Handler
-                0x080003d0        0x2 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
-                0x080003d0                EXTI2_IRQHandler
-                0x080003d0                TIM8_TRG_COM_IRQHandler
-                0x080003d0                TIM8_CC_IRQHandler
-                0x080003d0                DebugMon_Handler
-                0x080003d0                TIM1_CC_IRQHandler
-                0x080003d0                HardFault_Handler
-                0x080003d0                TIM6_IRQHandler
-                0x080003d0                SysTick_Handler
-                0x080003d0                PVD_IRQHandler
-                0x080003d0                SDIO_IRQHandler
-                0x080003d0                PendSV_Handler
-                0x080003d0                NMI_Handler
-                0x080003d0                CAN2_RX1_IRQHandler
-                0x080003d0                EXTI3_IRQHandler
-                0x080003d0                USB_HP_CAN_TX_IRQHandler
-                0x080003d0                EXTI0_IRQHandler
-                0x080003d0                I2C2_EV_IRQHandler
-                0x080003d0                UsageFault_Handler
-                0x080003d0                CAN2_SCE_IRQHandler
-                0x080003d0                ADC1_2_IRQHandler
-                0x080003d0                SPI1_IRQHandler
-                0x080003d0                CAN_SCE_IRQHandler
-                0x080003d0                TAMPER_IRQHandler
-                0x080003d0                CAN2_RX0_IRQHandler
-                0x080003d0                TIM8_UP_IRQHandler
-                0x080003d0                DMA2_Channel2_IRQHandler
-                0x080003d0                DMA1_Channel4_IRQHandler
-                0x080003d0                USART3_IRQHandler
-                0x080003d0                RTC_IRQHandler
-                0x080003d0                DMA1_Channel7_IRQHandler
-                0x080003d0                UART5_IRQHandler
-                0x080003d0                ADC3_IRQHandler
-                0x080003d0                USBWakeup_IRQHandler
-                0x080003d0                TIM4_IRQHandler
-                0x080003d0                CAN_RX1_IRQHandler
-                0x080003d0                DMA2_Channel1_IRQHandler
-                0x080003d0                I2C1_EV_IRQHandler
-                0x080003d0                DMA1_Channel6_IRQHandler
-                0x080003d0                UART4_IRQHandler
-                0x080003d0                DMA2_Channel4_IRQHandler
-                0x080003d0                TIM3_IRQHandler
-                0x080003d0                RCC_IRQHandler
-                0x080003d0                TIM1_TRG_COM_IRQHandler
-                0x080003d0                DMA1_Channel1_IRQHandler
-                0x080003d0                Default_Handler
-                0x080003d0                EXTI15_10_IRQHandler
-                0x080003d0                TIM7_IRQHandler
-                0x080003d0                CAN2_TX_IRQHandler
-                0x080003d0                TIM5_IRQHandler
-                0x080003d0                EXTI9_5_IRQHandler
-                0x080003d0                ETH_WKUP_IRQHandler
-                0x080003d0                SPI2_IRQHandler
-                0x080003d0                USB_LP_CAN_RX0_IRQHandler
-                0x080003d0                MemManage_Handler
-                0x080003d0                SVC_Handler
-                0x080003d0                DMA2_Channel5_IRQHandler
-                0x080003d0                DMA1_Channel5_IRQHandler
-                0x080003d0                EXTI4_IRQHandler
-                0x080003d0                DMA1_Channel3_IRQHandler
-                0x080003d0                FSMC_IRQHandler
-                0x080003d0                ETH_IRQHandler
-                0x080003d0                TIM1_UP_IRQHandler
-                0x080003d0                WWDG_IRQHandler
-                0x080003d0                TIM2_IRQHandler
-                0x080003d0                TIM1_BRK_IRQHandler
-                0x080003d0                EXTI1_IRQHandler
-                0x080003d0                RTCAlarm_IRQHandler
-                0x080003d0                USART2_IRQHandler
-                0x080003d0                I2C2_ER_IRQHandler
-                0x080003d0                DMA1_Channel2_IRQHandler
-                0x080003d0                TIM8_BRK_IRQHandler
-                0x080003d0                FLASH_IRQHandler
-                0x080003d0                BusFault_Handler
-                0x080003d0                USART1_IRQHandler
-                0x080003d0                OTG_FS_IRQHandler
-                0x080003d0                SPI3_IRQHandler
-                0x080003d0                I2C1_ER_IRQHandler
-                0x080003d0                DMA2_Channel3_IRQHandler
- *fill*         0x080003d2        0x2 
+                0x08001cac        0x2 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
+                0x08001cac                EXTI2_IRQHandler
+                0x08001cac                TIM8_TRG_COM_IRQHandler
+                0x08001cac                TIM8_CC_IRQHandler
+                0x08001cac                DebugMon_Handler
+                0x08001cac                TIM1_CC_IRQHandler
+                0x08001cac                HardFault_Handler
+                0x08001cac                TIM6_IRQHandler
+                0x08001cac                SysTick_Handler
+                0x08001cac                PVD_IRQHandler
+                0x08001cac                SDIO_IRQHandler
+                0x08001cac                PendSV_Handler
+                0x08001cac                NMI_Handler
+                0x08001cac                CAN2_RX1_IRQHandler
+                0x08001cac                EXTI3_IRQHandler
+                0x08001cac                USB_HP_CAN_TX_IRQHandler
+                0x08001cac                EXTI0_IRQHandler
+                0x08001cac                I2C2_EV_IRQHandler
+                0x08001cac                UsageFault_Handler
+                0x08001cac                CAN2_SCE_IRQHandler
+                0x08001cac                ADC1_2_IRQHandler
+                0x08001cac                SPI1_IRQHandler
+                0x08001cac                CAN_SCE_IRQHandler
+                0x08001cac                TAMPER_IRQHandler
+                0x08001cac                CAN2_RX0_IRQHandler
+                0x08001cac                TIM8_UP_IRQHandler
+                0x08001cac                DMA2_Channel2_IRQHandler
+                0x08001cac                DMA1_Channel4_IRQHandler
+                0x08001cac                USART3_IRQHandler
+                0x08001cac                RTC_IRQHandler
+                0x08001cac                DMA1_Channel7_IRQHandler
+                0x08001cac                UART5_IRQHandler
+                0x08001cac                ADC3_IRQHandler
+                0x08001cac                USBWakeup_IRQHandler
+                0x08001cac                TIM4_IRQHandler
+                0x08001cac                CAN_RX1_IRQHandler
+                0x08001cac                DMA2_Channel1_IRQHandler
+                0x08001cac                I2C1_EV_IRQHandler
+                0x08001cac                DMA1_Channel6_IRQHandler
+                0x08001cac                UART4_IRQHandler
+                0x08001cac                DMA2_Channel4_IRQHandler
+                0x08001cac                TIM3_IRQHandler
+                0x08001cac                RCC_IRQHandler
+                0x08001cac                TIM1_TRG_COM_IRQHandler
+                0x08001cac                DMA1_Channel1_IRQHandler
+                0x08001cac                Default_Handler
+                0x08001cac                EXTI15_10_IRQHandler
+                0x08001cac                TIM7_IRQHandler
+                0x08001cac                CAN2_TX_IRQHandler
+                0x08001cac                TIM5_IRQHandler
+                0x08001cac                EXTI9_5_IRQHandler
+                0x08001cac                ETH_WKUP_IRQHandler
+                0x08001cac                SPI2_IRQHandler
+                0x08001cac                USB_LP_CAN_RX0_IRQHandler
+                0x08001cac                MemManage_Handler
+                0x08001cac                SVC_Handler
+                0x08001cac                DMA2_Channel5_IRQHandler
+                0x08001cac                DMA1_Channel5_IRQHandler
+                0x08001cac                EXTI4_IRQHandler
+                0x08001cac                DMA1_Channel3_IRQHandler
+                0x08001cac                FSMC_IRQHandler
+                0x08001cac                ETH_IRQHandler
+                0x08001cac                TIM1_UP_IRQHandler
+                0x08001cac                WWDG_IRQHandler
+                0x08001cac                TIM2_IRQHandler
+                0x08001cac                TIM1_BRK_IRQHandler
+                0x08001cac                EXTI1_IRQHandler
+                0x08001cac                RTCAlarm_IRQHandler
+                0x08001cac                USART2_IRQHandler
+                0x08001cac                I2C2_ER_IRQHandler
+                0x08001cac                DMA1_Channel2_IRQHandler
+                0x08001cac                TIM8_BRK_IRQHandler
+                0x08001cac                FLASH_IRQHandler
+                0x08001cac                BusFault_Handler
+                0x08001cac                USART1_IRQHandler
+                0x08001cac                OTG_FS_IRQHandler
+                0x08001cac                SPI3_IRQHandler
+                0x08001cac                I2C1_ER_IRQHandler
+                0x08001cac                DMA2_Channel3_IRQHandler
+ *fill*         0x08001cae        0x2 
  .text.__libc_init_array
-                0x080003d4       0x48 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
-                0x080003d4                __libc_init_array
+                0x08001cb0       0x48 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x08001cb0                __libc_init_array
  *(.glue_7)
- .glue_7        0x0800041c        0x0 linker stubs
+ .glue_7        0x08001cf8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800041c        0x0 linker stubs
+ .glue_7t       0x08001cf8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800041c        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08001cf8        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0800041c        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crti.o
-                0x0800041c                _init
- .init          0x08000420        0x8 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08001cf8        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crti.o
+                0x08001cf8                _init
+ .init          0x08001cfc        0x8 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08000428        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crti.o
-                0x08000428                _fini
- .fini          0x0800042c        0x8 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
-                0x08000434                        . = ALIGN (0x4)
-                0x08000434                        _etext = .
+ .fini          0x08001d04        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crti.o
+                0x08001d04                _fini
+ .fini          0x08001d08        0x8 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
+                0x08001d10                        . = ALIGN (0x4)
+                0x08001d10                        _etext = .
 
-.vfp11_veneer   0x08000434        0x0
- .vfp11_veneer  0x08000434        0x0 linker stubs
+.vfp11_veneer   0x08001d10        0x0
+ .vfp11_veneer  0x08001d10        0x0 linker stubs
 
-.v4_bx          0x08000434        0x0
- .v4_bx         0x08000434        0x0 linker stubs
+.v4_bx          0x08001d10        0x0
+ .v4_bx         0x08001d10        0x0 linker stubs
 
-.iplt           0x08000434        0x0
- .iplt          0x08000434        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08001d10        0x0
+ .iplt          0x08001d10        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08000434       0x10
-                0x08000434                        . = ALIGN (0x4)
+.rodata         0x08001d10      0xafc
+                0x08001d10                        . = ALIGN (0x4)
  *(.rodata)
+ .rodata        0x08001d10       0x10 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .rodata        0x08001d20        0xf C:\Users\Пётр\Desktop\STM2\build\tft.o
  *(.rodata*)
+ *fill*         0x08001d2f        0x1 
+ .rodata.main.str1.4
+                0x08001d30       0xbb C:\Users\Пётр\Desktop\STM2\build\main.o
+                                 0xab (size before relaxing)
+ .rodata.TFT_Init.str1.4
+                0x08001deb        0xf C:\Users\Пётр\Desktop\STM2\build\tft.o
+ *fill*         0x08001deb        0x1 
+ .rodata.font_cyr_yo_sml
+                0x08001dec       0x10 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .rodata.font_cyr_yo_cap
+                0x08001dfc       0x10 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .rodata.font_cyr_d1
+                0x08001e0c      0x100 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .rodata.font_cyr_d0
+                0x08001f0c      0x300 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .rodata.font_ascii
+                0x0800220c      0x5f0 C:\Users\Пётр\Desktop\STM2\build\tft.o
  .rodata.AHBPrescTable
-                0x08000434       0x10 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
-                0x08000434                AHBPrescTable
-                0x08000444                        . = ALIGN (0x4)
+                0x080027fc       0x10 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x080027fc                AHBPrescTable
+                0x0800280c                        . = ALIGN (0x4)
 
-.ARM.extab      0x08000444        0x0
-                0x08000444                        . = ALIGN (0x4)
+.ARM.extab      0x0800280c        0x0
+                0x0800280c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08000444                        . = ALIGN (0x4)
+                0x0800280c                        . = ALIGN (0x4)
 
-.ARM            0x08000444        0x0
-                0x08000444                        . = ALIGN (0x4)
-                0x08000444                        __exidx_start = .
+.ARM            0x0800280c        0x0
+                0x0800280c                        . = ALIGN (0x4)
+                0x0800280c                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08000444                        __exidx_end = .
-                0x08000444                        . = ALIGN (0x4)
+                0x0800280c                        __exidx_end = .
+                0x0800280c                        . = ALIGN (0x4)
 
-.preinit_array  0x08000444        0x0
-                0x08000444                        . = ALIGN (0x4)
-                0x08000444                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800280c        0x0
+                0x0800280c                        . = ALIGN (0x4)
+                0x0800280c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08000444                        PROVIDE (__preinit_array_end = .)
-                0x08000444                        . = ALIGN (0x4)
+                0x0800280c                        PROVIDE (__preinit_array_end = .)
+                0x0800280c                        . = ALIGN (0x4)
 
-.init_array     0x08000444        0x4
-                0x08000444                        . = ALIGN (0x4)
-                0x08000444                        PROVIDE (__init_array_start = .)
+.init_array     0x0800280c        0x4
+                0x0800280c                        . = ALIGN (0x4)
+                0x0800280c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08000444        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08000448                        PROVIDE (__init_array_end = .)
-                0x08000448                        . = ALIGN (0x4)
+ .init_array    0x0800280c        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002810                        PROVIDE (__init_array_end = .)
+                0x08002810                        . = ALIGN (0x4)
 
-.fini_array     0x08000448        0x4
-                0x08000448                        . = ALIGN (0x4)
+.fini_array     0x08002810        0x4
+                0x08002810                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000448        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08002810        0x4 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0800044c                        . = ALIGN (0x4)
-                0x0800044c                        _sidata = LOADADDR (.data)
+                0x08002814                        . = ALIGN (0x4)
+                0x08002814                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x0800044c        0x0
- .rel.iplt      0x0800044c        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002814        0x0
+ .rel.iplt      0x08002814        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000        0x4 load address 0x0800044c
+.data           0x20000000        0x4 load address 0x08002814
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -765,11 +848,11 @@ LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.
                 0x20000004                        . = ALIGN (0x4)
                 0x20000004                        _edata = .
 
-.igot.plt       0x20000004        0x0 load address 0x08000450
+.igot.plt       0x20000004        0x0 load address 0x08002818
  .igot.plt      0x20000004        0x0 C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x20000004                        . = ALIGN (0x4)
 
-.bss            0x20000004       0x20 load address 0x08000450
+.bss            0x20000004       0x24 load address 0x08002818
                 0x20000004                        _sbss = .
                 0x20000004                        __bss_start__ = _sbss
  *(.bss)
@@ -778,15 +861,18 @@ LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.
  .bss.loop_counter
                 0x20000020        0x4 C:\Users\Пётр\Desktop\STM2\build\main.o
                 0x20000020                loop_counter
+ .bss.tft_controller_id
+                0x20000024        0x2 C:\Users\Пётр\Desktop\STM2\build\tft.o
+                0x20000024                tft_controller_id
  *(COMMON)
-                0x20000024                        . = ALIGN (0x4)
-                0x20000024                        _ebss = .
-                0x20000024                        __bss_end__ = _ebss
+                0x20000028                        . = ALIGN (0x4)
+ *fill*         0x20000026        0x2 
+                0x20000028                        _ebss = .
+                0x20000028                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000024      0x604 load address 0x08000450
+                0x20000028      0x600 load address 0x08002818
                 0x20000028                        . = ALIGN (0x8)
- *fill*         0x20000024        0x4 
                 [!provide]                        PROVIDE (end = .)
                 0x20000028                        PROVIDE (_end = .)
                 0x20000228                        . = (. + _Min_Heap_Size)
@@ -810,84 +896,101 @@ LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.
  .ARM.attributes
                 0x0000004a       0x2d C:\Users\Пётр\Desktop\STM2\build\main.o
  .ARM.attributes
-                0x00000077       0x2d C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x00000077       0x2d C:\Users\Пётр\Desktop\STM2\build\tft.o
  .ARM.attributes
-                0x000000a4       0x21 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
+                0x000000a4       0x2d C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
  .ARM.attributes
-                0x000000c5       0x2d C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x000000d1       0x21 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
  .ARM.attributes
-                0x000000f2       0x1d C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
+                0x000000f2       0x2d C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000011f       0x1d C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(C:\Users\Пётр\Desktop\STM2\build\firmware.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000      0x843
- .debug_info    0x00000000      0x5d0 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_info    0x000005d0      0x273 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+.debug_info     0x00000000     0x59dd
+ .debug_info    0x00000000      0x96c C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_info    0x0000096c     0x4dfe C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_info    0x0000576a      0x273 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_abbrev   0x00000000      0x356
- .debug_abbrev  0x00000000      0x236 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_abbrev  0x00000236      0x120 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+.debug_abbrev   0x00000000      0x77e
+ .debug_abbrev  0x00000000      0x26b C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_abbrev  0x0000026b      0x3f3 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_abbrev  0x0000065e      0x120 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
 .debug_loclists
-                0x00000000      0x312
+                0x00000000     0x276c
  .debug_loclists
-                0x00000000      0x1c0 C:\Users\Пётр\Desktop\STM2\build\main.o
+                0x00000000      0x1e2 C:\Users\Пётр\Desktop\STM2\build\main.o
  .debug_loclists
-                0x000001c0      0x152 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x000001e2     0x2438 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_loclists
+                0x0000261a      0x152 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_aranges  0x00000000       0x50
+.debug_aranges  0x00000000       0xb0
  .debug_aranges
                 0x00000000       0x28 C:\Users\Пётр\Desktop\STM2\build\main.o
  .debug_aranges
-                0x00000028       0x28 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x00000028       0x60 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_aranges
+                0x00000088       0x28 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
 .debug_rnglists
-                0x00000000       0xa0
+                0x00000000      0x6bd
  .debug_rnglists
-                0x00000000       0x86 C:\Users\Пётр\Desktop\STM2\build\main.o
+                0x00000000       0x7b C:\Users\Пётр\Desktop\STM2\build\main.o
  .debug_rnglists
-                0x00000086       0x1a C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+                0x0000007b      0x628 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_rnglists
+                0x000006a3       0x1a C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_macro    0x00000000    0x17bcf
- .debug_macro   0x00000000       0xc6 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x000000c6      0xac0 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000b86       0x2e C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000bb4       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000bd6       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000bf8       0x8e C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000c86       0x51 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000cd7      0x103 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000dda       0x6a C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00000e44      0x1df C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00001023       0x1c C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x0000103f       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00001061       0xbd C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x0000111e      0xd23 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00001e41    0x15c59 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00017a9a       0x6d C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_macro   0x00017b07       0xc8 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+.debug_macro    0x00000000    0x17f24
+ .debug_macro   0x00000000       0xd9 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x000000d9      0xac0 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000b99       0x2e C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000bc7       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000be9       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000c0b       0x8e C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000c99       0x51 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000cea      0x103 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000ded       0x6a C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00000e57      0x1df C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00001036       0x1c C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00001052       0x22 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00001074       0xbd C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00001131      0xd23 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00001e54    0x15c59 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00017aad       0x6d C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00017b1a       0x82 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_macro   0x00017b9c      0x130 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00017ccc      0x190 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_macro   0x00017e5c       0xc8 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_line     0x00000000      0xd1f
- .debug_line    0x00000000      0x7ff C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_line    0x000007ff      0x520 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+.debug_line     0x00000000     0x4177
+ .debug_line    0x00000000      0x6f5 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_line    0x000006f5     0x3562 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_line    0x00003c57      0x520 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_str      0x00000000    0x80428
- .debug_str     0x00000000    0x80428 C:\Users\Пётр\Desktop\STM2\build\main.o
-                              0x80585 (size before relaxing)
- .debug_str     0x00080428    0x80574 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+.debug_str      0x00000000    0x80c9e
+ .debug_str     0x00000000    0x80c9e C:\Users\Пётр\Desktop\STM2\build\main.o
+                              0x80791 (size before relaxing)
+ .debug_str     0x00080c9e    0x80d7b C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_str     0x00080c9e    0x80574 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 C:\Users\Пётр\Desktop\STM2\build\main.o
                                  0x44 (size before relaxing)
+ .comment       0x00000043       0x44 C:\Users\Пётр\Desktop\STM2\build\tft.o
  .comment       0x00000043       0x44 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
 
-.debug_frame    0x00000000       0xa8
- .debug_frame   0x00000000       0x44 C:\Users\Пётр\Desktop\STM2\build\main.o
- .debug_frame   0x00000044       0x38 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
- .debug_frame   0x0000007c       0x2c C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+.debug_frame    0x00000000      0x230
+ .debug_frame   0x00000000       0x48 C:\Users\Пётр\Desktop\STM2\build\main.o
+ .debug_frame   0x00000048      0x184 C:\Users\Пётр\Desktop\STM2\build\tft.o
+ .debug_frame   0x000001cc       0x38 C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
+ .debug_frame   0x00000204       0x2c C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
 
 Cross Reference Table
 
@@ -955,6 +1058,19 @@ SystemCoreClockUpdate                             C:\Users\Пётр\Desktop\STM2
 SystemInit                                        C:\Users\Пётр\Desktop\STM2\build\system_stm32f1xx.o
                                                   C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
 TAMPER_IRQHandler                                 C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
+TFT_DrawChar                                      C:\Users\Пётр\Desktop\STM2\build\tft.o
+TFT_DrawPixel                                     C:\Users\Пётр\Desktop\STM2\build\tft.o
+TFT_DrawRect                                      C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o
+TFT_DrawString                                    C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o
+TFT_FillRect                                      C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o
+TFT_FillScreen                                    C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o
+TFT_Init                                          C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o
+TFT_SetAddressWindow                              C:\Users\Пётр\Desktop\STM2\build\tft.o
 TIM1_BRK_IRQHandler                               C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
 TIM1_CC_IRQHandler                                C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
 TIM1_TRG_COM_IRQHandler                           C:\Users\Пётр\Desktop\STM2\build\startup_stm32f107vctx.o
@@ -1129,6 +1245,7 @@ _write_r                                          C:/Users/Пётр/AppData/Loca
 atexit                                            C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 banner                                            C:\Users\Пётр\Desktop\STM2\build\main.o
 delay_ms                                          C:\Users\Пётр\Desktop\STM2\build\main.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\tft.o
 environ                                           C:\Users\Пётр\Desktop\STM2\build\syscalls.o
 errno                                             C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-reent.o)
                                                   C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sbrkr.o)
@@ -1150,3 +1267,5 @@ memset                                            C:/Users/Пётр/AppData/Loca
                                                   C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
                                                   C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 software_init_hook                                C:/Users/Пётр/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+tft_controller_id                                 C:\Users\Пётр\Desktop\STM2\build\tft.o
+                                                  C:\Users\Пётр\Desktop\STM2\build\main.o

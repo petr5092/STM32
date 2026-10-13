@@ -47,6 +47,7 @@ LDFLAGS = [
 
 SOURCES_C = [
     os.path.join(PROJECT_DIR, "Core", "Src", "main.c"),
+    os.path.join(PROJECT_DIR, "Core", "Src", "tft.c"),
     os.path.join(PROJECT_DIR, "Core", "Src", "system_stm32f1xx.c"),
     os.path.join(PROJECT_DIR, "Core", "Src", "syscalls.c"),
     os.path.join(PROJECT_DIR, "Core", "Src", "sysmem.c"),
