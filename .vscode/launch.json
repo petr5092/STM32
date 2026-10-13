@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug STM32F107 (OpenOCD)",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/firmware.elf",
+            "configFiles": [
+                "${workspaceFolder}/openocd.cfg"
+            ],
+            "svdFile": "${workspaceFolder}/STM32F107xx.svd",
+            "preLaunchTask": "Build",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        },
+        {
+            "name": "Attach STM32F107 (OpenOCD)",
+            "type": "cortex-debug",
+            "request": "attach",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/firmware.elf",
+            "configFiles": [
+                "${workspaceFolder}/openocd.cfg"
+            ],
+            "svdFile": "${workspaceFolder}/STM32F107xx.svd"
+        }
+    ]
+}
